@@ -152,11 +152,11 @@ Commands should follow this format:
 
 Example:
 
-`get_all_markets`
+`get-all-markets`
 Retrieve and display a list of markets from Polymarket, sorted by volume.
 
    ```
-   python scripts/python/cli.py get_all_markets --limit <LIMIT> --sort-by <SORT_BY>
+   python scripts/python/cli.py get-all-markets --limit <LIMIT> --sort-by <SORT_BY>
    ```
 
 - limit: The number of markets to retrieve (default: 5).
